@@ -38,6 +38,18 @@ var StockTable = React.createClass({
   }
 })
 
+var SearchBar = React.createClass({
+  render: function() {
+    return (
+      <div className="row">
+        <div className="col-lg-4 col-lg-offset-4">
+          <input type="search" className="form-control" placeholder="Search for episode" />
+        </div>
+      </div>
+    );
+  }
+});
+
 var App = React.createClass({
     render() {
       return (
